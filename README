@@ -1,0 +1,23 @@
+PURPOSE:
+This program is used to analyse the sales reports of a coffee shop for the desired number of months. This is useful
+as it shows the revenue generated from each item, and also shows the top 10 earners, allowing the owner of the shop to
+get insight into which items are being sold the most, and which items may not be worth selling in the future. Being able
+to restrict which months are inputted into the program is also helpful because it will demonstrate which items sell best
+at different times of year, allowing the owner to make better choices on which items should be made and sold for a particular
+month or season.
+
+The program creates three text files after running:
+
+-Total_sales.txt: Shows each item and the number of times that item was sold
+
+-Profits.txt: Shows each item, the number of times it was sold, the total cost of making that many items, the sales from
+that item, and the overall revenue from that item
+
+-Top_earnrs.txt: Shows the top 10 revenue generating items and the number of times they were sold
+
+INSTRUCTIONS:
+To compile simply type "make all" in the terminal.
+To run type "./analysis"
+
+SOURCES:
+I worked on this assignment entirely on my own

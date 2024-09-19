@@ -1,0 +1,51 @@
+get_totals{
+    Open Total_sales.txt in write mode
+    Declare tally counter variable
+    Iterate through each row of sales_data array
+    - Set tally to 0 at the start of each row loop
+    - Print item number at start of row
+    - Print tally variable then skip line
+    Close file
+}
+
+get_profits{
+    Open Profits.txt in write mode
+    Declare tally counter variable
+    Declare floats cost, sales and Revenue
+    Print header to file
+    Iterate trough each row, adding the num items into tally
+    - Set tally to 0 at the start of each row loop
+    - Print item number at start of row
+    - Set sales equal to tally times the items buying price (in money array)
+    - Set cost equal to the tally times manufacturing price (in money array)
+    - Set revenue equal to sales - cost
+    - Print tally, sales, cost, and revenue to file
+    - Skip line
+    Close file
+}
+
+top_earner{
+    Open Top_earners.txt  in write mode
+    Initialize counter variable to 0 to be used for while loop later
+    Declare tally counter variable
+    Declare floats cost, sales and Revenue
+    Declare float array for revenue and int array for tally of each item
+    Declare float max_val and max_row
+    Initialize both arrays listed above to 0 at every index
+    Print header to file
+    Iterate through each row, adding num items into tally
+    - Set tally to 0 at the start of each row loop
+    - Print item number at start of row
+    - Set sales equal to tally times the items buying price (in money array)
+    - Set cost equal to the tally times manufacturing price (in money array)
+    - Set revenue equal to sales - cost
+    - Store tally and revenue into their respective arrays 
+    Run a while loop while count is less than 10
+    - Set max_val to 0.00 each loop
+    Iterate through each row of the revenue array
+    - If revenue is greater than the max, set max to that revenue and store the column of that item
+    - Print the item number, tally, and revenue of the max item
+    - Set that item's revenue to 0
+    - Increment count
+    Close file
+}
